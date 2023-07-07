@@ -1,3 +1,3 @@
 # Portfolio
 
-https://github.com/JRobak/Portfolio/settings/pages
+https://jrobak.github.io/Portfolio/
