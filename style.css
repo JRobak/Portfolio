@@ -1,0 +1,426 @@
+body{
+    background-color: #262626;
+    padding: 0;
+    margin: 0;
+}
+
+#baner{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /*border-bottom: #ffc200 3px solid;*/
+}
+
+#oMnie{
+    height: auto;
+    text-align: center;
+}
+
+#oMnieZdjecie{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+#oMnieZdjecie img{
+    width: 70%;
+}
+
+#oMnieOpis{
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+}
+#oMnieOpis p{
+    line-height: 0px;
+}
+#oMnieTitle{
+    color: #ffc200;
+    text-shadow: 3px 4px 5px black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.przerywnik{
+    color: #ffc200;
+}
+.oMnieTekst{
+    color: white;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#oMnieOpis button{ 
+    border-radius: 8px;
+    margin-left: 20px;
+    background-color: #ffc200;
+    margin-bottom: 0px;
+    box-shadow: 0 4px #595959 ;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#oMnieOpis button:hover{
+    background-color: #ffc951;
+    cursor: pointer;
+}
+#oMnieOpis button:active {
+    background-color: #f7cb6c;
+    box-shadow: 0 2px #4d4d4d ;
+    transform: translateY(4px);
+}
+
+#programowanie{
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a ;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.Title{
+    font-family: 'DynaPuff', cursive;
+    color: #ffc200;
+    text-shadow: 3px 4px 5px black ;
+}
+.TitleJezyk{
+    color:#9400ca;
+    text-shadow: 2px 3px 5px black ;
+}
+.icon-star{
+    color:#80aaff;
+}
+.icon-star-empty{
+    opacity: 70%;
+    color:#80aaff;
+}
+.icon-star-half-alt{
+    opacity: 85%;
+    color:#80aaff;
+}
+
+.easterEgg{
+    width: 100%;
+    height: 20px;
+    background-color: #1a1a1a;
+}
+
+#blenderPrace{
+    background-color:#262626;
+    width: 100%;
+    margin:0;
+    padding: 10px 10px;
+    height: auto;
+    line-height:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sliderZdjec{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	margin-top:20px;
+}
+.slide {display: none}
+ img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.tlo{
+	background-color:#3d3e40;
+	box-shadow: 15px 15px 34px 13px rgba(37, 38, 39, 1);
+	border-radius:25px;
+	margin-left:20px;
+	margin-right:25px;
+}
+
+#video{
+    border: 4px solid black;
+}
+
+.kontaktTekst{
+    color:rgb(226, 226, 226);
+    text-shadow: 3px 3px 2px rgb(43, 43, 43);
+}
+#kontakt{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited{
+	color: #fff;
+}
+a:hover{
+	color: rgb(170, 170, 170);
+}
+a:active{    
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .oMnieTekst{
+        font-size: 12px;
+        line-height: 16x;
+        margin: 0;
+    }
+    #oMnieZdjecie{
+        width: 20%;
+    }
+    #oMnieZdjecie img{
+        width: 90%;
+    }
+    #oMnieTitle, .przerywnik{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    #oMnie{
+        margin: 10px;
+    }
+    #oMnieOpis{
+        width: 78%;
+    }
+    #oMnie button{
+        font-size: 10px;
+        padding: 5px 8px;
+        margin-top: 10px;
+    }
+    #programowanie{
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+    .Title{
+        font-size: 18px;
+    }
+    #programowanie i{
+        font-size: 15px;
+    }
+    #easterEgg{
+        height: 8px;
+    }
+    #video{
+        width: 480px;
+        height: auto;
+    }
+    .kontaktTekst{
+        font-size: 18px;
+    }
+    #zmiana{
+        clear: both;
+        width: 100%;
+    }
+    #zmiana2{
+        width: 100%;
+        clear: both;
+    }
+    #zmiana3{
+        width: 0%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .oMnieTekst{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #oMnieZdjecie{
+        width: 30%;
+    }
+    #oMnieZdjecie img{
+        width: 90%;
+    }
+    #oMnieTitle, .przerywnik{
+        font-size: 26px;
+    }
+    #oMnie{
+        margin-top: 20px;
+    }
+    #oMnieOpis{
+        width: 65%;
+        padding-right: 10px;
+    }
+    #oMnie button{
+        font-size: 16px;
+        padding: 12px 18px;
+        margin: 10px 0;
+    }
+    #programowanie{
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+    #programowanie p{
+        margin: 0;
+    }
+    .Title{
+        font-size: 24px;
+    }
+    #programowanie i{
+        font-size: 22px;
+    }
+    #easterEgg{
+        height: 8px;
+    }
+    #video{
+        width: 720px;
+        height: auto;
+    }
+    .kontaktTekst{
+        font-size: 22px;
+    }
+    #zmiana{
+        float:left; 
+        width: 50%;
+        margin-top: 18px;
+    }
+    #zmiana2{
+        float:left; 
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .oMnieTekst{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    #oMnieZdjecie{
+        width: 30%;
+    }
+    #oMnieZdjecie img{
+        width: 85%;
+    }
+    #oMnieTitle, .przerywnik{
+        font-size: 34px;
+    }
+    #oMnie{
+        margin: 30px;
+    }
+    #oMnieOpis{
+        width: 69%;
+    }
+    #oMnie button{
+        font-size: 16px;
+        padding: 12px 18px;
+        margin-top: 10px;
+    }
+    #programowanie{
+        font-size: 38px;
+        padding-bottom: 15px;
+    }
+    .Title{
+        font-size: 44px;
+    }
+    #programowanie i{
+        font-size: 28px;
+    }
+    #easterEgg{
+        height: 15px;
+    }
+    #video{
+        width: 1080px;
+        height: auto;
+    }
+    .kontaktTekst{
+        font-size: 25px;
+    }
+    #zmiana{
+        float:left; 
+        width: 50%;
+        margin-top: 20px;
+    }
+    #zmiana2{
+        float:left; 
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width: 1600px) {
+    .oMnieTekst{
+        font-size: 24px;
+        line-height: 42px;
+    }
+    #oMnieTitle, .przerywnik{
+        font-size: 42px;
+    }
+    #oMnieZdjecie img{
+        width: 70%;
+    }
+    #oMnie{
+        margin: 40px;
+    }
+    #oMnie button{
+        font-size: 18px;
+        padding: 15px 22px;
+        margin-top: 15px;
+    }
+    #programowanie{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .Title{
+        font-size: 48px;
+    }
+    #programowanie i{
+        font-size: 30px;
+    }
+    #easterEgg{
+        height: 20px;
+    }
+    #video{
+        width: 1080px;
+        height: auto;
+    }
+    .kontaktTekst{
+        font-size: 30px;
+    }
+    #zmiana{
+        float:left; 
+        width: 50%;
+        margin-top: 22px;
+    }
+    #zmiana2{
+        float:left; 
+        width: 50%;
+    }
+}
